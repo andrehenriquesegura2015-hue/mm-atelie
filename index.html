@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M&M Ateliê</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff8f6;
+    color: #5a4a4a;
+}
+
+header {
+    background: #f3d7d2;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #7a4a4a;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav {
+    background: #e8c6bf;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+h2 {
+    color: #7a4a4a;
+    margin-bottom: 20px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+}
+
+.card p {
+    padding: 0 10px 15px;
+    font-size: 0.9em;
+}
+
+.botao {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+footer {
+    background: #7a4a4a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>M&M Ateliê</h1>
+    <p>Feito à mão com carinho e delicadeza 💖</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>
+        O M&M Ateliê nasceu do amor por transformar fios em peças únicas.
+        Criamos bolsas, tapetes, pijamas e muito mais, tudo feito à mão com cuidado e carinho.
+    </p>
+</section>
+
+<section id="produtos">
+    <h2>Nossos Produtos</h2>
+
+    <div class="galeria">
+
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300">
+            <h3>Bolsas</h3>
+            <p>Elegantes e artesanais para o dia a dia.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300">
+            <h3>Tapetes</h3>
+            <p>Conforto e charme para sua casa.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300">
+            <h3>Pijamas</h3>
+            <p>Macios e feitos com amor.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/400x300">
+            <h3>Peças Personalizadas</h3>
+            <p>Feitas do jeitinho que você quiser.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contato" style="text-align:center;">
+    <h2>Faça sua encomenda</h2>
+    <p>Entre em contato pelo WhatsApp 💬</p>
+
+    <a class="botao" href="https://wa.me/5500000000000">
+        Falar no WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 M&M Ateliê - Feito com amor 💖</p>
+</footer>
+
+</body>
+</html>
